@@ -31,7 +31,7 @@ puts options[:source_secretkey]
 
 unless options[:source_accesskey].nil? & options[:source_secretkey].nil?
   Aws.config.update({
-    region: 'us-west-2',
+    region: options[:source_region],
     credentials: Aws::Credentials.new(options[:source_accesskey], options[:source_secretkey]),
   })
 end
