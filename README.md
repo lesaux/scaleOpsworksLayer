@@ -17,3 +17,9 @@ Parameters
 -m --maxinstancecount MAXINSTANCECOUNT
 -t --instancetype INSTANCETYPE
 ```
+
+Optional Parameters if not using an IAM profile
+```
+-x --accesskey AWS_ACCESSKEY
+-y --secretkey AWS_SECRETKEY
+```
