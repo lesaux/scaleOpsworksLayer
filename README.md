@@ -22,4 +22,5 @@ Optional Parameters if not using an IAM profile
 ```
 -x --accesskey AWS_ACCESSKEY
 -y --secretkey AWS_SECRETKEY
+-z --subnetids SUBNETIDS  and array of subnet ids. count must be equal to --instancecount
 ```
