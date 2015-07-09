@@ -23,5 +23,5 @@ Optional Parameters (if not specified will be using your IAM instance profile)
 ```
 -x --accesskey AWS_ACCESSKEY
 -y --secretkey AWS_SECRETKEY
--z --subnetids SUBNETIDS  and array of subnet ids. count must be equal to --instancecount
+-z --subnetids SUBNETIDS  and array of subnet ids. instances will be spun up in the subnet with the least amount of instances
 ```
