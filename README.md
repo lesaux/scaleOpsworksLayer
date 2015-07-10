@@ -5,7 +5,7 @@ I use this to work around the opsworks scaling limitations. I trigger this scrip
 Command line example
 
 ```
-scaleOpsworksLayer.rb -s opsviz -r us-east-1 -l ElasticSearch -i 2 -m 5 -t m3.medium
+scaleOpsworksLayer.rb -s opsviz -r us-east-1 -l ElasticSearch -i 2 -m 5 -t m3.medium -z subnet-aaaaaa,subnet-bbbbbb,subnet-cccccc
 ```
 
 Parameters
