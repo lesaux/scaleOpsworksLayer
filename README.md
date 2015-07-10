@@ -1,6 +1,6 @@
 Scale an opsworks layer with ruby aws-sdk
 
-I used this to work around the opsworks scaling limitations. I trigger this script with sensu remedations.
+I use this to work around the opsworks scaling limitations. I trigger this script with sensu remedations.
 
 Command line example
 
